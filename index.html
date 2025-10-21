@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <h1 class="logo">YourNameDev</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="hero-section">
+        <div class="hero-content">
+            <h2 class="animate-text">Hi, I'm **[Your Name]** 👋</h2>
+            <p>I am a **Developer** with a strong eye for **Design**.</p>
+            <p>I build clean, responsive, and functional web applications using **HTML, CSS, and JavaScript**.</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+        
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>To-Do List App 📝</h3>
+                <p>A functional app built with JavaScript DOM manipulation and Local Storage.</p>
+                <a href="#" target="_blank" class="project-link">View Live Demo</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Responsive Landing Page 📱</h3>
+                <p>A modern, mobile-first design showcase using CSS Grid and Flexbox.</p>
+                <a href="#" target="_blank" class="project-link">View Live Demo</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Weather Dashboard 🌤️</h3>
+                <p>Fetches real-time weather data from a third-party API.</p>
+                <a href="#" target="_blank" class="project-link">View Live Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Get In Touch</h2>
+        <p>I'm currently looking for new opportunities. Feel free to connect!</p>
+        <div class="contact-links">
+            <a href="mailto:your.email@example.com" class="contact-button email">Email Me</a>
+            <a href="https://github.com/yourusername" target="_blank" class="contact-button github">GitHub</a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" class="contact-button linkedin">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Your Name. Built with pure HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
