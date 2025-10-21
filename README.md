@@ -29,4 +29,3 @@ This site is deployed automatically using **GitHub Pages** from the `main` branc
 **Aarav Marocks**
 
 * **GitHub:** [@aaravmarocks13](https://github.com/aaravmarocks13)
-* *\[Optional: Add your LinkedIn, Portfolio, or other contact link here]*
